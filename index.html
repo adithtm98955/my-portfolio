@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADITH TM - Flutter Developer Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">ADITH TM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="greeting">Hello, I'm</span>
+                            <span class="name">ADITH TM</span>
+                        </h1>
+                        <h2 class="hero-subtitle">
+                            <span class="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </h2>
+                        <p class="hero-description">
+                            Flutter Developer with hands-on experience crafting cross-platform mobile apps using Dart and the Flutter framework.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">Get In Touch</a>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="mailto:adithtm98955@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-image">
+                        <div class="floating-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                        <div class="profile-card">
+                            <img src="kt.jpeg" alt="ADITH TM" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up">
+                    <div class="about-content">
+                        <div class="text-center mb-4">
+                            <h3 class="mb-2">ADITH TM</h3>
+                            <h4 class="mb-4" style="color: var(--text-red);">Flutter Developer</h4>
+                        </div>
+                        <p class="lead">
+                            Flutter Developer with hands-on experience crafting cross-platform mobile apps using Dart and the Flutter framework. Proficient in both front-end UI design and back-end integration, including API consumption and cloud services like Firebase.
+                        </p>
+                        <p>
+                            Adept at building intuitive interfaces, managing data efficiently, and optimizing performance for Android and iOS. Focused on delivering scalable, high-quality mobile solutions aligned with user and business goals.
+                        </p>
+                        <div class="info-grid mt-4">
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">adithtm98955@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Phone:</span>
+                                <span class="info-value">9895615988</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Location:</span>
+                                <span class="info-value">Calicut, Kerala</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Date of Birth:</span>
+                                <span class="info-value">2002-11-07</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Nationality:</span>
+                                <span class="info-value">Indian</span>
+                            </div>
+                        </div>
+                        <div class="social-links mt-4 text-center">
+                            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="timeline">
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="card experience-card">
+                                    <div class="card-body">
+                                        <div class="experience-header">
+                                            <h4 class="card-title">Flutter Developer</h4>
+                                            <span class="badge bg-primary">Internship</span>
+                                        </div>
+                                        <h5 class="company-name">Resab Technologies LLP</h5>
+                                        <p class="text-muted mb-3">
+                                            <i class="fas fa-calendar"></i> 01/2025 – Present | 
+                                            <i class="fas fa-map-marker-alt"></i> Calicut, Kerala
+                                        </p>
+                                        <ul class="experience-list">
+                                            <li><i class="fas fa-check-circle"></i> Mobile App Development: Developed 2+ scalable cross-platform mobile apps using Flutter.</li>
+                                            <li><i class="fas fa-check-circle"></i> State Management: Integrated Provider for 2 production apps, reducing widget rebuild time and enhancing app responsiveness.</li>
+                                            <li><i class="fas fa-check-circle"></i> Backend Integration: Connected front-end to Django REST APIs in multiple modules, ensuring secure and efficient data exchange.</li>
+                                            <li><i class="fas fa-check-circle"></i> Team Collaboration: Coordinated with a 3-member team, contributing to agile sprints and delivering features on time with 95% sprint goal completion rate.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="card experience-card">
+                                    <div class="card-body">
+                                        <div class="experience-header">
+                                            <h4 class="card-title">Flutter Developer</h4>
+                                            <span class="badge bg-primary">Internship</span>
+                                        </div>
+                                        <h5 class="company-name">Luminar Technolab</h5>
+                                        <p class="text-muted mb-3">
+                                            <i class="fas fa-calendar"></i> 07/2023 – 12/2023 | 
+                                            <i class="fas fa-map-marker-alt"></i> Kochi, Kerala
+                                        </p>
+                                        <ul class="experience-list">
+                                            <li><i class="fas fa-check-circle"></i> Cross-Platform App Development: Built 2+ responsive mobile apps using Flutter and Dart, achieving over 95% UI consistency in Android.</li>
+                                            <li><i class="fas fa-check-circle"></i> API Integration: Integrated RESTful APIs, reducing manual data entry by 60% and enabling real-time content updates.</li>
+                                            <li><i class="fas fa-check-circle"></i> Debugging & Optimization: Reduced app launch time and fixed 15+ critical bugs, improving performance across devices.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Education</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card education-card h-100">
+                        <div class="card-body">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4 class="card-title">Bachelor of Computer Application</h4>
+                            <h5 class="institution">College of Applied Science (IHRD) Nadapuram</h5>
+                            <p class="text-muted">
+                                <i class="fas fa-calendar"></i> 2020 – 2023
+                            </p>
+                            <p class="text-muted">
+                                <i class="fas fa-map-marker-alt"></i> Calicut, Kerala
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card education-card h-100">
+                        <div class="card-body">
+                            <div class="education-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <h4 class="card-title">Higher Secondary</h4>
+                            <h5 class="institution">GVHSS Madappally</h5>
+                            <p class="text-muted">
+                                <i class="fas fa-calendar"></i> 2018 – 2020
+                            </p>
+                            <p class="text-muted">
+                                <i class="fas fa-map-marker-alt"></i> Calicut, Kerala
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Technical Knowledge</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-flutter"></i>
+                        </div>
+                        <h5>Flutter</h5>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-dart"></i>
+                        </div>
+                        <h5>Dart</h5>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h5>HTML</h5>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-firebase"></i>
+                        </div>
+                        <h5>Firebase</h5>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <div class="project-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4 class="card-title">Smart Learning App</h4>
+                            <p class="text-muted mb-3">UI Development using Flutter</p>
+                            <ul class="project-features">
+                                <li><i class="fas fa-check"></i> Course Browsing & Add to Cart: Designed and developed a course catalog UI enabling users to browse and add from over 100 courses, increasing user interaction time by 30%.</li>
+                                <li><i class="fas fa-check"></i> Modern UI/UX with Figma: Translated 15+ Figma-designed screens into responsive Flutter UI, achieving 98% design accuracy across devices.</li>
+                                <li><i class="fas fa-check"></i> Authentication Interface: Created login/signup with validation; reduced failed login attempts through clear error messaging and input feedback.</li>
+                                <li><i class="fas fa-check"></i> Search & Filter Courses: Implemented keyword search and category filters, improving course discoverability by 50% based on user feedback.</li>
+                                <li><i class="fas fa-check"></i> Interactive Elements: Added course ratings, lesson previews, and progress bars, leading to a 20% increase in user session duration.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="badge bg-primary">Flutter</span>
+                                <span class="badge bg-primary">Dart</span>
+                                <span class="badge bg-primary">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <div class="project-icon">
+                                <i class="fas fa-bicycle"></i>
+                            </div>
+                            <h4 class="card-title">Bike Store</h4>
+                            <p class="text-muted mb-3">Academic Project</p>
+                            <p class="mb-3">
+                                Developed a cross-platform mobile application for a Bike Store that enables users to buy and rent bikes and bike parts online. The app also includes service booking and a blog section for user interaction.
+                            </p>
+                            <h6 class="mb-3">Key Features:</h6>
+                            <ul class="project-features">
+                                <li><i class="fas fa-check"></i> User registration, login, and password recovery.</li>
+                                <li><i class="fas fa-check"></i> Dynamic listing of bikes and parts with specifications and comparison features.</li>
+                                <li><i class="fas fa-check"></i> Shopping cart with credit card payment integration.</li>
+                                <li><i class="fas fa-check"></i> Bike rental system with daily pricing.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="badge bg-primary">Flutter</span>
+                                <span class="badge bg-primary">Dart</span>
+                                <span class="badge bg-primary">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-card">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <h5>Email</h5>
+                                    <p>adithtm98955@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <h5>Phone</h5>
+                                    <p>9895615988</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <h5>Location</h5>
+                                    <p>Calicut, Kerala, India</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <h5>Website</h5>
+                                    <p>Portfolio</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 ADITH TM. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
